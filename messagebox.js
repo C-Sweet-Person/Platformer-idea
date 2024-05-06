@@ -1,3 +1,5 @@
+//Add check for portrait image
+
 function messageBox(message) {
     let textYOffset = 0;
     textCutOff = 70;

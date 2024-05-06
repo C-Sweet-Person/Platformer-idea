@@ -72,6 +72,7 @@ function drawObjects() {
     ctx.fillRect(paddle.x,paddle.y,paddle.width,paddle.height);
 
 }
+//
 function boundsCheck(obj, screen) {
     let check = false;
     if ((obj.x + obj.width > screen.width)) {
