@@ -24,6 +24,7 @@ function gameloop() {
         if (objDetect(paddle,roomObjs[i]) && (roomObjs[i].name != "ground" && roomObjs[i].name != "sky"))
         {
             if ("message" in rooms[currentRoom]["objects"][i])
+                if (rooms[currentRoom]["objects"][i].message)
             curMsg = rooms[currentRoom]["objects"][i].message
         }
     }
